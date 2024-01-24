@@ -1,0 +1,121 @@
+/* Font Variables */
+@manrope_font: 'Manrope', sans-serif;
+@arial_font: Arial, Helvetica, sans-serif;
+
+/* Resposnive */
+@min480: ~"only screen and (min-width: 480px)";
+@max479: ~"only screen and (max-width: 479px)";
+
+@min576: ~"only screen and (min-width: 576px)";
+@max575: ~"only screen and (max-width: 575px)";
+
+@min768: ~"only screen and (min-width: 768px)";
+@max767: ~"only screen and (max-width: 767px)";
+
+@min992: ~"only screen and (min-width: 992px)";
+@max991: ~"only screen and (max-width: 991px)";
+
+@min1024: ~"only screen and (min-width: 1024px)";
+@max1023: ~"only screen and (max-width: 1023px)";
+
+@min1190: ~"only screen and (min-width: 1190px)";
+@max1189: ~"only screen and (max-width: 1189px)";
+
+@min1200: ~"only screen and (min-width: 1200px)";
+@max1199: ~"only screen and (max-width: 1199px)";
+
+@min1350: ~"only screen and (min-width: 1350px)";
+@max1349: ~"only screen and (max-width: 1349px)";
+
+@min1370: ~"only screen and (min-width: 1370px)";
+@max1369: ~"only screen and (max-width: 1369px)";
+
+@min1400: ~"only screen and (min-width: 1400px)";
+@max1399: ~"only screen and (max-width: 1399px)";
+
+@min1440: ~"only screen and (min-width: 1440px)";
+@max1439: ~"only screen and (max-width: 1439px)";
+
+@min1470: ~"only screen and (min-width: 1470px)";
+@max1469: ~"only screen and (max-width: 1469px)";
+
+@min1600: ~"only screen and (min-width: 1600px)";
+@max1599: ~"only screen and (max-width: 1599px)";
+
+@min1920: ~"only screen and (min-width: 1920px)";
+@max1919: ~"only screen and (max-width: 1919px)";
+
+@max1350_min991: ~"screen and (max-width: 1350px) and (min-width: 991px)";
+@max990_min768: ~"screen and (max-width: 990px) and (min-width: 768px)";
+@max767_min576: ~"screen and (max-width: 767px) and (min-width: 576px)";
+
+@min768_portrait: ~"screen and (min-width: 768px) and (orientation:portrait)";
+@max767_landscape: ~"screen and (max-width: 767px) and (orientation:landscape)";
+
+/* Mixins */
+.transition(@transition) {
+    -webkit-transition: @transition;
+    -moz-transition: @transition;
+    -ms-transition: @transition;
+    -o-transition: @transition;
+    transition: @transition;
+}
+.radius(@radius) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -ms-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius;
+}
+.shadow(@boxshadow) {
+    -webkit-box-shadow: @boxshadow;
+    -moz-box-shadow: @boxshadow;
+    -ms-box-shadow: @boxshadow;
+    -o-box-shadow: @boxshadow;
+    box-shadow: @boxshadow;
+}
+.transform(@transform) {
+    -webkit-transform: @transform;
+    -moz-transform: @transform;
+    -ms-transform: @transform;
+    -o-transform: @transform;
+    transform: @transform;
+}
+
+/* Colors */
+@color_primary: #4E4AD8;
+//Grey Colors
+@color_grey: #555555;
+@color_mgrey: #808080;
+@color_lgrey:  #bdbdbd;
+//Common Colors
+@color_red: #FA433D;
+@color_pink: #EA24BA;
+@color_yellow: #FBD931;
+@color_green: #38C948;
+@color_blue: #007AFF;
+@color_orange: #FA842D;
+@color_brown: #83174A;
+@color_purple: #A924C1;
+@color_black: #000000;
+@color_white: #ffffff;
+//Status Colors
+@color_success: #0CAF60;
+@color_error: #e52b20;
+@color_danger: #E23342;
+@color_warning: #E6BB20;
+@color_default: #1275D2;
+@color_approve: #4DB86B;
+@color_reject: #EC6D6E;
+//Text Colors
+@color_text: #062134;
+@color_text_light: rgba(0, 0, 0, 0.5);
+@color_text_grey: #687588;
+//Border Colors
+@color_border: #E9EAEC;
+@color_cntrl_border: #d6d6d6;
+//BG Colors
+@color_bg_light: #F3F5F5;
+@color_bg_dark: #13192B;
+//Disable Color
+@color_disabled: #e4e7ea;

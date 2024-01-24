@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- TITLE -->
+    <title>Home | HRMS - TGH</title>
+    <!-- FAV ICON -->
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8">
+    <!-- GOOGLE FONT
+    ================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS BEGINS 
+    ================================================== -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- THEME CSS -->
+    <link href="./assets/less/theme.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="py-2 text-bg-dark" data-bs-theme="dark">
+        <div class="container-md d-flex flex-wrap align-items-center mb-lg-2">
+          <div class="d-flex order-1 flex-wrap me-lg-auto align-items-center gap-2">
+            <a href="/" class="d-flex align-items-center mb-lg-0 link-body-emphasis text-decoration-none">
+              <img class="img-fluid" src="./assets/img/header/logo.svg" alt="Logo" />
+            </a>
+            <div class="dropdown mob-menu-list">
+              <button class="nav-link dropdown-toggle white-toggle fw-bold" type="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
+                Tech Goes Home
+              </button>
+              <ul class="dropdown-menu">
+                <li class="dropend">
+                  <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                  <ul class="dropdown-menu dropdown-submenu">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-fluid" src="./assets/img/icon_24x24/headphones.svg" alt="Headphones Icon" />
+                        OPS Helpdesk
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-fluid" src="./assets/img/icon_24x24/users.svg" alt="Users Icon" />
+                        Employee Centre
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-fluid" src="./assets/img/icon_24x24/dashboard.svg" alt="Dashboard Icon" />
+                        Salesforce Dashboard
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-fluid" src="./assets/img/icon_24x24/user-track.svg" alt="Graph Icon" />
+                        Career Learning
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-fluid" src="./assets/img/icon_24x24/teams.svg" alt="Teams Icon" />
+                        Work space & Teams
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="./pages/learning.html">Learning</a></li>
+                <li><a class="dropdown-item" href="./pages/careers.html">Careers</a></li>
+                <li><a class="dropdown-item" href="./pages/files.html">Files</a></li>
+                <li><a class="dropdown-item" href="./pages/benefits.html">Benefits</a></li>
+              </ul>
+            </div>
+            <p class="fw-bold nav-head">Tech Goes Home – HRMS</p>
+          </div>
+          <form class="col-12 col-lg-auto order-3 order-lg-2 mb-lg-0 me-lg-auto mt-3 mt-lg-0" role="search">
+            <input type="search" class="form-control header-search text-bg-dark" placeholder="Search" aria-label="Search">
+          </form>
+          <ul class="nav gap-3 order-2 order-lg-3 ms-xs-auto ms-sm-auto ms-lg-0">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white px-2">
+                <div class="header-icon">
+                  <img class="img-fluid" src="./assets/img/header/mail.svg" alt="Mail" />
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white px-2">
+                <div class="header-icon">
+                  <img class="img-fluid" src="./assets/img/header/message.svg" alt="Message" />
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <nav class="nav-wrap text-bg-dark pt-3 pb-4 py-lg-4">
+        <div class="container-md d-flex flex-wrap">
+          <span class="fs-4 fw-bold">Welcome, Mia Paggett Crabbe  </span>
+          <ul class="nav gap-2 ms-auto menu-list">
+            <li class="nav-item dropdown">
+              <a class="nav-link fw-medium text-white px-2 active" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">Services</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img class="img-fluid" src="./assets/img/icon_24x24/headphones.svg" alt="Headphones Icon" />
+                    OPS Helpdesk
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img class="img-fluid" src="./assets/img/icon_24x24/users.svg" alt="Users Icon" />
+                    Employee Centre
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img class="img-fluid" src="./assets/img/icon_24x24/dashboard.svg" alt="Dashboard Icon" />
+                    Salesforce Dashboard
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img class="img-fluid" src="./assets/img/icon_24x24/user-track.svg" alt="Graph Icon" />
+                    Career Learning
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img class="img-fluid" src="./assets/img/icon_24x24/teams.svg" alt="Teams Icon" />
+                    Work space & Teams
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="./pages/learning.html" class="nav-link fw-medium text-white px-2">Learning</a></li>
+            <li class="nav-item"><a href="./pages/careers.html" class="nav-link fw-medium text-white px-2">Careers</a></li>
+            <li class="nav-item"><a href="../pages/files.html" class="nav-link fw-medium text-white px-2">Files</a></li>
+            <li class="nav-item"><a href="./pages/benefits.html" class="nav-link fw-medium text-white px-2">Benefits</a></li>
+          </ul>
+        </div>
+      </nav>
+      <main class="container-md">
+        <div class="page-content">
+          <div class="row gap-mob-3_4">
+            <div class="col-lg-8 tab-mb-3_4">
+              <div class="banner-wrap mb-3_4">
+                <div class="banner-content"></div>
+              </div><!-- Banner Wrap -->
+              <div class="row gap-mob-3_4 mb-3_4">
+                <div class="col-md-6">
+                  <div class="box-wrap bg-white">
+                    <div class="box-head d-flex align-items-center justify-content-between">
+                      <h6 class="box-head-title">Careers</h6>
+                      <a href="./pages/careers.html" class="btn btn-icon-only">
+                        <img class="img-fluid" src="./assets/img/icon_24x24/expand-icon.svg" />
+                      </a>
+                    </div><!-- Box Head -->
+                    <div class="box-body">
+                      <div class="table-responsive">
+                        <table class="table table-view table-head-fixed table-col-2 mb-0">
+                          <thead class="table-light">
+                            <tr>
+                              <th scope="col">Role</th>
+                              <th scope="col">Openings</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>LMS Coordinator</td>
+                              <td>2 Openings</td>
+                            </tr>
+                            <tr>
+                              <td>HR specialist</td>
+                              <td>1 Openings</td>
+                            </tr>
+                            <tr>
+                              <td>Salesforce Administrator</td>
+                              <td>2 Openings</td>
+                            </tr>
+                            <tr>
+                              <td>School Program specialist</td>
+                              <td>1 Openings</td>
+                            </tr>
+                            <tr>
+                              <td>LMS Coordinator</td>
+                              <td>2 Openings</td>
+                            </tr>
+                            <tr>
+                              <td>HR specialist</td>
+                              <td>1 Openings</td>
+                            </tr>
+                            <tr>
+                              <td>Salesforce Administrator</td>
+                              <td>2 Openings</td>
+                            </tr>
+                          </tbody>
+                        </table><!-- Table -->
+                      </div><!-- Table Responsive -->
+                    </div><!-- Box Body -->
+                  </div><!-- Box Wrap -->
+                </div><!-- Column -->
+                <div class="col-md-6">
+                  <div class="box-wrap bg-white">
+                    <div class="box-head tab-head">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <h6 class="box-head-title">Benefits</h6>
+                        <a class="btn btn-icon-only">
+                          <img class="img-fluid" src="./assets/img/icon_24x24/expand-icon.svg" />
+                        </a>
+                      </div>
+                      <ul class="nav nav-underline">
+                        <li class="nav-item">
+                          <a class="nav-link active" id="bcbs-tab" data-bs-toggle="tab" data-bs-target="#bcbs-tab-pane" role="tab" aria-controls="bcbs-tab-pane" aria-selected="true">BC/BS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="human-tab" data-bs-toggle="tab" data-bs-target="#human-tab-pane" role="tab" aria-controls="human-tab-pane" aria-selected="true">Human Interest 401k</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="shelter-tab" data-bs-toggle="tab" data-bs-target="#shelter-tab-pane" role="tab" aria-controls="shelter-tab-pane" aria-selected="true">Shelter Point</a>
+                        </li>
+                      </ul>
+                    </div><!-- Box Head -->
+                    <div class="box-body">
+                      <div class="tab-content" id="benefitsTabContent">
+                        <div class="tab-pane fade show active" id="bcbs-tab-pane" role="tabpanel" aria-labelledby="bcbs-tab" tabindex="0">
+                          <div class="view-data-list-wrap fixed-height">
+                            <ul class="view-data-list">
+                              <li>
+                                <div class="view-data-item">
+                                  <div class="view-data-icon">
+                                    <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                                  </div>
+                                  <div class="view-data-content">
+                                    <p class="view-data-content-title">Access my Benefits</p>
+                                  </div>
+                                </div><!-- Data Item -->
+                              </li>
+                              <li>
+                                <div class="view-data-item">
+                                  <div class="view-data-icon">
+                                    <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                                  </div>
+                                  <div class="view-data-content">
+                                    <p class="view-data-content-title">Manage my Claims</p>
+                                  </div>
+                                </div><!-- Data Item -->
+                              </li>
+                              <li>
+                                <div class="view-data-item">
+                                  <div class="view-data-icon">
+                                    <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                                  </div>
+                                  <div class="view-data-content">
+                                    <p class="view-data-content-title">Make Payments</p>
+                                  </div>
+                                </div><!-- Data Item -->
+                              </li>
+                              <li>
+                                <div class="view-data-item">
+                                  <div class="view-data-icon">
+                                    <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                                  </div>
+                                  <div class="view-data-content">
+                                    <p class="view-data-content-title">Employee Agreement</p>
+                                  </div>
+                                </div><!-- Data Item -->
+                              </li>
+                              <li>
+                                <div class="view-data-item">
+                                  <div class="view-data-icon">
+                                    <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                                  </div>
+                                  <div class="view-data-content">
+                                    <p class="view-data-content-title">Access my Benefits</p>
+                                  </div>
+                                </div><!-- Data Item -->
+                              </li>
+                              <li>
+                                <div class="view-data-item">
+                                  <div class="view-data-icon">
+                                    <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                                  </div>
+                                  <div class="view-data-content">
+                                    <p class="view-data-content-title">Manage my Claims</p>
+                                  </div>
+                                </div><!-- Data Item -->
+                              </li>
+                              <li>
+                                <div class="view-data-item">
+                                  <div class="view-data-icon">
+                                    <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                                  </div>
+                                  <div class="view-data-content">
+                                    <p class="view-data-content-title">Make Payments</p>
+                                  </div>
+                                </div><!-- Data Item -->
+                              </li>
+                            </ul><!-- Data List -->
+                          </div><!-- Data List Wrap -->
+                        </div><!-- Tab Pane -->
+                        <div class="tab-pane fade" id="human-tab-pane" role="tabpanel" aria-labelledby="human-tab" tabindex="0">Human</div><!-- Tab Pane -->
+                        <div class="tab-pane fade" id="shelter-tab-pane" role="tabpanel" aria-labelledby="shelter-tab" tabindex="0">Shelter</div><!-- Tab Pane -->
+                      </div><!-- Tab Content -->
+                    </div><!-- Box Body -->
+                  </div><!-- Box Wrap -->
+                </div><!-- Column -->
+              </div><!-- Row -->
+              <div class="row gap-mob-3_4 mb-3_4">
+                <div class="col-md-6">
+                  <div class="box-wrap bg-white">
+                    <div class="box-head border-bottom">
+                      <h6 class="box-head-title">Policies</h6>
+                    </div><!-- Box Head -->
+                    <div class="box-body">
+                      <div class="view-data-list-wrap fixed-height">
+                        <ul class="view-data-list">
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <a href="./pages/policy-view.html" class="view-data-content-title fw-bold">Employee Agreement</a>
+                                <p class="view-data-content-text">Explore Tech Goes Home Agreement, to know mor...</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <a href="./pages/policy-view.html" class="view-data-content-title fw-bold">Work Policy</a>
+                                <p class="view-data-content-text">A work policy, often referred to as an employment or ...</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <a href="./pages/policy-view.html" class="view-data-content-title fw-bold">Leave Policy</a>
+                                <p class="view-data-content-text">A leave policy is a set of guidelines and rules establis...</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <a href="./pages/policy-view.html" class="view-data-content-title fw-bold">Stipend & COPAY policy changes</a>
+                                <p class="view-data-content-text">A policy is a set of guidelines and rules establis...</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <a href="./pages/policy-view.html" class="view-data-content-title fw-bold">Employee Agreement</a>
+                                <p class="view-data-content-text">Explore Tech Goes Home Agreement, to know mor...</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <a href="./pages/policy-view.html" class="view-data-content-title fw-bold">Work Policy</a>
+                                <p class="view-data-content-text">A work policy, often referred to as an employment or ...</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/data-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <a href="./pages/policy-view.html" class="view-data-content-title fw-bold">Leave Policy</a>
+                                <p class="view-data-content-text">A leave policy is a set of guidelines and rules establis...</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                        </ul><!-- Data List -->
+                      </div><!-- Data List Wrap -->
+                    </div><!-- Box Body -->
+                  </div><!-- Box Wrap -->
+                </div><!-- Column -->
+                <div class="col-md-6">
+                  <div class="box-wrap bg-white">
+                    <div class="box-head tab-head">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <h6 class="box-head-title">Files</h6>
+                        <a class="btn btn-icon-only">
+                          <img class="img-fluid" src="./assets/img/icon_24x24/expand-icon.svg" />
+                        </a>
+                      </div>
+                      <ul class="nav nav-underline">
+                        <li class="nav-item">
+                          <a class="nav-link active" id="forms-tab" data-bs-toggle="tab" data-bs-target="#forms-tab-pane" role="tab" aria-controls="forms-tab-pane" aria-selected="true">Forms</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="documents-tab" data-bs-toggle="tab" data-bs-target="#documents-tab-pane" role="tab" aria-controls="documents-tab-pane" aria-selected="true">Documents</a>
+                        </li>
+                      </ul>
+                    </div><!-- Box Head -->
+                    <div class="box-body">
+                      <div class="tab-content" id="filesTabContent">
+                        <div class="tab-pane fade show active" id="forms-tab-pane" role="tabpanel" aria-labelledby="forms-tab" tabindex="0">
+                          <div class="table-responsive">
+                            <table class="table table-view table-head-fixed table-col-2 mb-0">
+                              <thead class="table-light">
+                                <tr>
+                                  <th scope="col">File Name</th>
+                                  <th scope="col">Added Date</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Attendance</td>
+                                  <td>10/10/2023</td>
+                                </tr>
+                                <tr>
+                                  <td>Administration Form</td>
+                                  <td>10/23/2023</td>
+                                </tr>
+                                <tr>
+                                  <td>Executive Leave Form</td>
+                                  <td>10/15/2023</td>
+                                </tr>
+                                <tr>
+                                  <td>Return to work Survey</td>
+                                  <td>11/17/2023</td>
+                                </tr>
+                                <tr>
+                                  <td>Attendance</td>
+                                  <td>10/15/2023</td>
+                                </tr>
+                                <tr>
+                                  <td>Administration Form</td>
+                                  <td>11/17/2023</td>
+                                </tr>
+                                <tr>
+                                  <td>Salesforce Administrator</td>
+                                  <td>10/10/2023</td>
+                                </tr>
+                              </tbody>
+                            </table><!-- Table -->
+                          </div><!-- Table Responsive -->
+                        </div><!-- Tab Pane -->
+                        <div class="tab-pane fade" id="documents-tab-pane" role="tabpanel" aria-labelledby="documents-tab" tabindex="0">Documents</div><!-- Tab Pane -->
+                      </div><!-- Tab Content -->
+                    </div><!-- Box Body -->
+                  </div><!-- Box Wrap -->
+                </div><!-- Column -->
+              </div><!-- Row -->
+              <div class="row gap-mob-3_4">
+                <div class="col-md-6">
+                  <div class="box-wrap bg-white">
+                    <div class="box-head">
+                      <h6 class="box-head-title">Onboarding</h6>
+                    </div><!-- Box Head -->
+                    <div class="box-body">
+                      <div class="table-responsive">
+                        <table class="table table-view table-head-fixed table-col-2 mb-0">
+                          <thead class="table-light">
+                            <tr>
+                              <th scope="col">Basic Info</th>
+                              <th scope="col">Status</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Sarah Sandres</td>
+                              <td>
+                                <span class="status-badge status-badge-rounded  status-warning">Pending</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Rose Stacy</td>
+                              <td>
+                                <span class="status-badge status-badge-rounded status-warning">Pending</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Mathew Morales</td>
+                              <td>
+                                <span class="status-badge status-badge-rounded status-warning">Pending</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Kevin Parker</td>
+                              <td>
+                                <span class="status-badge status-badge-rounded status-success">Completed</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>David Rickmen</td>
+                              <td>
+                                <span class="status-badge status-badge-rounded status-success">Completed</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>HR specialist</td>
+                              <td>
+                                <span class="status-badge status-badge-rounded status-warning">Pending</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Salesforce Administrator</td>
+                              <td>
+                                <span class="status-badge status-badge-rounded status-success">Completed</span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table><!-- Table -->
+                      </div><!-- Table Responsive -->
+                    </div><!-- Box Body -->
+                  </div><!-- Box Wrap -->
+                </div><!-- Column -->
+                <div class="col-md-6">
+                  <div class="box-wrap bg-white">
+                    <div class="box-head d-flex align-items-center justify-content-between border-bottom">
+                      <h6 class="box-head-title">Learning</h6>
+                      <a href="./pages/learning.html" class="btn btn-icon-only">
+                        <img class="img-fluid" src="./assets/img/icon_24x24/expand-icon.svg" />
+                      </a>
+                    </div><!-- Box Head -->
+                    <div class="box-body">
+                      <div class="view-data-list-wrap fixed-height">
+                        <ul class="view-data-list">
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/book-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <p class="view-data-content-title fw-bold">Work Management</p>
+                                <p class="view-data-content-text">10 Courses</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/book-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <p class="view-data-content-title fw-bold">Skill Assessment</p>
+                                <p class="view-data-content-text">12 Courses</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/book-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <p class="view-data-content-title fw-bold">Problem solving</p>
+                                <p class="view-data-content-text">8 Courses</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/book-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <p class="view-data-content-title fw-bold">Planning and organizing</p>
+                                <p class="view-data-content-text">14 Courses</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/book-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <p class="view-data-content-title fw-bold">Work Management</p>
+                                <p class="view-data-content-text">10 Courses</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/book-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <p class="view-data-content-title fw-bold">Skill Assessment</p>
+                                <p class="view-data-content-text">10 Courses</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/book-icon.svg" alt="Data" />
+                              </div>
+                              <div class="view-data-content">
+                                <p class="view-data-content-title fw-bold">Problem solving</p>
+                                <p class="view-data-content-text">10 Courses</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                        </ul><!-- Data List -->
+                      </div><!-- Data List Wrap -->
+                    </div><!-- Box Body -->
+                  </div><!-- Box Wrap -->
+                </div><!-- Column -->
+              </div><!-- Row -->
+            </div><!-- Column -->
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-md-6 col-lg-12">
+                  <div class="box-wrap bg-white mb-3_4">
+                    <div class="box-head box-head-with-icon border-bottom">
+                      <div class="d-flex align-items-center gap-2">
+                        <img class="img-fluid" src="./assets/img/others/info-icon.svg" alt="Info" />
+                        <h6 class="box-head-title">Updates</h6>
+                      </div>
+                      <div>
+                        <a href="./pages/updates.html" class="link-underline link-underline-opacity-0 fw-bold">View All</a>
+                      </div>
+                    </div><!-- Box Head -->
+                    <div class="box-body">
+                      <div class="view-data-list-wrap fixed-height">
+                        <ul class="view-data-list">
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-content">
+                                <p class="view-data-content-title fw-bold d-flex gap-2 align-items-center">
+                                  <span>Export options for holidays</span>
+                                  <span class="status-badge status-badge-sm status-badge-rounded status-success fw-bold">New</span>
+                                </p>
+                                <p class="view-data-content-text">Import holidays in ICS format and export holidays..</p>
+                                <p class="view-data-content-text">9:34 AM</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item">
+                              <div class="view-data-content">
+                                <p class="view-data-content-title fw-bold d-flex gap-2 align-items-center">
+                                  <span>Annual Engagement surveys!</span>
+                                </p>
+                                <p class="view-data-content-text">Create extensive surveys with multiple questions to c...</p>
+                                <p class="view-data-content-text">9:24 AM</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                        </ul><!-- Data List -->
+                      </div><!-- Data List Wrap -->
+                    </div><!-- Box Body -->
+                  </div><!-- Box Wrap -->
+                </div>
+                <div class="col-md-6 col-lg-12">
+                  <div class="box-wrap bg-white mb-3_4">
+                    <div class="box-head box-head-with-icon border-bottom">
+                      <div class="d-flex align-items-center gap-2">
+                        <img class="img-fluid" src="./assets/img/others/announcements-icon.svg" alt="Info" />
+                        <h6 class="box-head-title">Announcements</h6>
+                      </div>
+                      <div>
+                        <a href="./pages/announcements.html" class="link-underline link-underline-opacity-0 fw-bold">View All</a>
+                      </div>
+                    </div><!-- Box Head -->
+                    <div class="box-body">
+                      <div class="view-data-list-wrap fixed-height">
+                        <ul class="view-data-list">
+                          <li>
+                            <div class="view-data-item align-items-start">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/announcements-profile-1.svg" alt="Info" />
+                              </div>
+                              <div class="view-data-content">
+                                <p class="view-data-content-title fw-bold">Explore Service</p>
+                                <p class="view-data-content-text">Explore Tech Goes Home service, to know mor...</p>
+                                <p class="view-data-content-text">9:34 AM</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                          <li>
+                            <div class="view-data-item align-items-start">
+                              <div class="view-data-icon">
+                                <img class="img-fluid" src="./assets/img/others/announcements-profile-2.svg" alt="Info" />
+                              </div>
+                              <div class="view-data-content">
+                                <p class="view-data-content-title fw-bold">Welcome to Tech Goes Home</p>
+                                <p class="view-data-content-text">Welcome, Jesse Thomas</p>
+                                <p class="view-data-content-text">9:24 AM</p>
+                              </div>
+                            </div><!-- Data Item -->
+                          </li>
+                        </ul><!-- Data List -->
+                      </div><!-- Data List Wrap -->
+                    </div><!-- Box Body -->
+                  </div><!-- Box Wrap -->
+                </div>
+                <div class="col-md-6 col-lg-12">
+                  <div class="box-wrap bg-white mb-3_4">
+                    <div class="box-head border-bottom d-flex align-items-center justify-content-between">
+                      <h6 class="box-head-title">Apps & Tools</h6>
+                      <a href="./pages/apps-tools.html" class="link-underline link-underline-opacity-0 fw-bold">View All</a>
+                    </div><!-- Box Head -->
+                    <div class="box-body">
+                      <p class="fs-sm color-mgrey" style="line-height: 1.5834;">These essential software components are pivotal in managing employee data, performance and more.</p>
+                      <ul class="d-flex flex-wrap gap-3_4 mb-2">
+                        <li>
+                          <img class="img-fluid" src="./assets/img/apps/app-image-1.svg" alt="App 1" />
+                        </li>
+                        <li>
+                          <img class="img-fluid" src="./assets/img/apps/app-image-2.svg" alt="App 2" />
+                        </li>
+                        <li>
+                          <img class="img-fluid" src="./assets/img/apps/app-image-3.svg" alt="App 3" />
+                        </li>
+                        <li>
+                          <img class="img-fluid" src="./assets/img/apps/app-image-4.svg" alt="App 4" />
+                        </li>
+                        <li>
+                          <img class="img-fluid" src="./assets/img/apps/app-image-5.svg" alt="App 5" />
+                        </li>
+                      </ul>
+                    </div><!-- Box Body -->
+                  </div><!-- Box Wrap -->
+                </div>
+                <div class="col-md-6 col-lg-12">
+                  <div class="box-wrap bg-white">
+                    <div class="box-head border-bottom">
+                      <h6 class="box-head-title">Meet the People Team</h6>
+                    </div><!-- Box Head -->
+                    <div class="box-body">
+                      <ul class="view-data-list">
+                        <li>
+                          <div class="view-data-item align-items-center">
+                            <div class="view-data-icon">
+                              <img class="img-fluid" src="./assets/img/peoples/people-1.svg" alt="People 1" />
+                            </div>
+                            <div class="view-data-content">
+                              <p class="view-data-content-title">Chantae Turner</p>
+                              <!-- <p class="view-data-content-text fw-bold color-success">Active</p> -->
+                            </div>
+                          </div><!-- Data Item -->
+                        </li>
+                        <li>
+                          <div class="view-data-item align-items-center">
+                            <div class="view-data-icon">
+                              <img class="img-fluid" src="./assets/img/peoples/people-2.svg" alt="People 2" />
+                            </div>
+                            <div class="view-data-content">
+                              <p class="view-data-content-title">Mia Crabbe</p>
+                              <!-- <p class="view-data-content-text fw-bold color-error">Inactive</p> -->
+                            </div>
+                          </div><!-- Data Item -->
+                        </li>
+                      </ul><!-- Data List -->
+                    </div><!-- Box Body -->
+                  </div><!-- Box Wrap -->
+                </div>
+              </div>
+            </div><!-- Column -->
+          </div><!-- Row -->
+        </div><!-- Page Content -->
+      </main><!-- Main -->
+    </div><!-- Page Wrapper -->
+    <!-- Script BEGINS 
+    ================================================== -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

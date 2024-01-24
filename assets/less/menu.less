@@ -1,0 +1,83 @@
+/****** Header Style CSS ******/
+/* Header Bar */
+.header {
+  &-search.form-control {
+    border: 0;
+    height: 35px;
+    padding-inline-start: 2.875rem;
+    background-color: #323B49!important;
+    background-image: url('../img/header/search-icon.svg');
+    background-position: 1rem 7px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    &:focus {
+      .shadow(unset);
+    }
+    @media @min1024 {
+      min-width: 400px;
+    }
+    @media @min1350 {
+      min-width: 560px;
+    }
+  }
+  &-icon {
+    position: relative;
+    &::after {
+      top: 0;
+      right: 0;
+      width: 8px;
+      height: 8px;
+      content: '';
+      position: absolute;
+      display: inline-block;
+      background-color: #E03137;
+      .radius(100%);
+    }
+  }
+}
+/* Nav Bar Style */
+.nav-wrap {
+  position: relative;
+  font-family: @arial_font;
+  &::after {
+    top: 100%;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    display: inline-block;
+    background-color: @color_bg_dark;
+    z-index: -1;
+  }
+  .menu-list {
+    @media @max1189 {
+      display: none;
+    }
+  }
+}
+.nav-head {
+  @media @max1189 {
+    display: none;
+  }
+}
+.mob-menu-list {
+  display: none;
+  @media @max1189 {
+    display: block;
+  }
+}
+.dropdown-menu {
+  --bs-dropdown-bg: @color_white;
+  --bs-dropdown-color: @color_text;
+  --bs-dropdown-link-color: @color_text;
+  --bs-dropdown-link-active-color: @color_black;
+  --bs-dropdown-link-active-bg: rgba(19, 25, 43, 0.08);
+  &.dropdown-submenu {
+    @media @max575 {
+      position: static!important;
+      .transform(none)!important;
+      .shadow(none);
+    }
+  }
+}

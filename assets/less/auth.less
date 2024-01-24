@@ -1,0 +1,139 @@
+/*********** Auth Layout Style ***********/
+//Auth Wrap
+.auth {
+	&-page {
+		&-wrap {
+			min-height: 100vh;
+			background-color: @color_bg_dark;
+			background-image: url('../img/auth/auth-bg.svg');
+			background-position: left center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			@media @max575 {
+				background-size: cover;
+			}
+			@media @max767_landscape {
+				padding: 1rem;
+			}
+		}
+		&-content {
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+		}
+		&-footer {
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			padding: 0.75rem 1rem 1.25rem;
+			&-content {
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+				@media @min992 {
+					gap: 0.625rem;
+				}
+				@media @max575 {
+					flex-direction: column;
+					gap: 0.25rem;
+				}
+			}
+			&-text {
+				color: #A0AEC0;
+				&.link {
+					text-decoration: none;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+			@media @max767_landscape {
+				position: static;
+				padding-bottom: 0rem;
+			}
+		}
+	}
+	&-left {
+		&-wrap {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+		}
+		&-body {
+			width: 100%;
+			position: relative;
+			min-height: 1px;
+			/* @media @min1600 {
+				min-height: ~"calc(100vh - 9.375rem)";
+			}
+			@media @min1920 {
+				min-height: 700px;
+			} */
+		}
+		&-content {
+			position: absolute;
+			bottom: 0;
+			&::before {
+				left: 0;
+				content: '';
+				width: 100vw;
+				height: 5px;
+				position: fixed;
+				display: inline-block;
+				background-color: #27A376;
+			}
+			&-wrap {
+				padding-top: 24px;
+				@media @min1440 {
+					padding-top: 50px;
+				}
+			}
+			
+		}
+	}
+	&-box{
+		&-white {
+			width: 100%;
+			max-width: 380px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 1.25rem 1rem;
+			background-color: @color_white;
+			.radius(1.25rem);
+			&-content {
+				width: 100%;
+			}
+			@media @min1350 {
+				max-width: 456px;
+				padding: 1.5rem 1.25rem;
+			}
+			@media @min1440 {
+				max-width: 556px;
+			}
+			@media @min1600 {
+				padding: 2rem 1.5rem;
+				min-height: ~"calc(100vh - 9.375rem)";
+			}
+			@media @min1920 {
+				min-height: 700px;
+				padding: 2.5rem 2.375rem;
+			}
+		}
+	}
+	&-form-wrap {
+		.form-control {
+			height: 36px;
+		}
+	}
+}
+
+.responsive-hidden {
+	@media @max991 {
+		display: none !important;
+	}
+}
